@@ -1,4 +1,4 @@
-# create s3 bucket for terraform state file
+# create s3 backend for terraform state file
 provider "aws" {
   access_key = " " #access key for s3user
   secret_key = " " #secret key for s3user
